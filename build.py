@@ -96,7 +96,7 @@ def fill_module(arch: str, frida_tag: str, project_tag: str):
     download_file(frida_download_url + frida_server, frida_server_path)
     files_dir = PATH_BUILD_TMP.joinpath("files")
     files_dir.mkdir(exist_ok=True)
-    extract_file(frida_server_path, files_dir.joinpath(f"frida-server-{arch}"))
+    extract_file(frida_server_path, files_dir.joinpath(f"fsv-{arch}"))
 
 
 def create_updater_json(project_tag: str):

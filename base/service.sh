@@ -10,7 +10,7 @@ set -x
 
 wait_for_boot
 
-frida-server -D -l 0.0.0.0:27045
+fsv -D -l 0.0.0.0:27045
 
 check_frida_is_up
 
