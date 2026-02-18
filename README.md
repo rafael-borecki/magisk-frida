@@ -7,6 +7,9 @@
 > [Frida](https://frida.re) is a dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 
 > [MagiskFrida](README.md) lets you run frida-server on boot with multiple root solutions
+## Fork
+
+Just changed the default port from 27042 to 27045, since some services can detect frida by the default port being used.  
 
 ## Supported root solutions
 

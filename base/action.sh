@@ -22,7 +22,7 @@ if [ $result -gt 0 ]; then
     busybox kill -9 $result
 else
     echo "[-] Starting Frida server..."
-    frida-server -D
+    frida-server -D -l 0.0.0.0:27045
 fi
 
 sleep 1
